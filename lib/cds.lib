@@ -1,0 +1,5 @@
+include $CDS_INST_DIR/tools/inca/files/cds.lib
+define dutlib $curdir/compile/dutlib
+define veriflib $curdir/compile/veriflib
+define cfglib $curdir/compile/cfglib
+define tblib $curdir/compile/tblib

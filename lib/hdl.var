@@ -1,0 +1,9 @@
+DEFINE NCVLOGOPTS -messages
+DEFINE NCELABOPTS -messages
+DEFINE NCSIMOPTS -messages
+DEFINE LIB_MAP ($PROJ_HOME/... => dutlib, \
+                $curdir/models/verif_mdl/... => veriflib, \
+				$curdir/config/... => cfglib, \
+				$curdir/chip_tb/... => tblib)
+
+DEFINE VIEW_MAP ()
